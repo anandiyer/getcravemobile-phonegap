@@ -16,6 +16,8 @@
 	<array/>
 	<key>Plugins</key>
 	<dict>
+		<key>ChildBrowserCommand</key>
+		<string>ChildBrowserCommand</string>
 		<key>Accelerometer</key>
 		<string>Accelerometer</string>
 		<key>Camera</key>
@@ -26,8 +28,6 @@
 		<string>Contacts</string>
 		<key>DebugConsole</key>
 		<string>DebugConsole</string>
-		<key>Contacts</key>
-		<string>Contacts</string>
 		<key>File</key>
 		<string>File</string>
 		<key>FileTransfer</key>
