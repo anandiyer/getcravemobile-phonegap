@@ -1,8 +1,8 @@
 //
 //  AppDelegate.m
-//  craveapp
+//  test1
 //
-//  Created by Brian Samson on 7/20/11.
+//  Created by Brian Samson on 7/29/11.
 //  Copyright Brian Samson Software Consulting 2011. All rights reserved.
 //
 
@@ -36,21 +36,19 @@
 	{
 		NSURL *url = [launchOptions objectForKey:[keyArray objectAtIndex:0]];
 		self.invokeString = [url absoluteString];
-		NSLog(@"craveapp launchOptions = %@",url);
+		NSLog(@"test1 launchOptions = %@",url);
 	}
 	
 	return [super application:application didFinishLaunchingWithOptions:launchOptions];
 }
 
 // this happens while we are running ( in the background, or from within our own app )
-// only valid if craveapp.plist specifies a protocol to handle
+// only valid if test1.plist specifies a protocol to handle
 - (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url 
 {
-	// Do something with the url here
-	NSString* jsString = [NSString stringWithFormat:@"handleOpenURL(\"%@\");", url];
-	[self.webView stringByEvaluatingJavaScriptFromString:jsString];
-	
-	return YES;
+    // must call super so all plugins will get the notification, and their handlers will be called 
+	// super also calls into javascript global function 'handleOpenURL'
+    return [super application:application handleOpenURL:url];
 }
 
 -(id) getCommandInstance:(NSString*)className
@@ -66,7 +64,7 @@
  */
 - (void)webViewDidFinishLoad:(UIWebView *)theWebView 
 {
-	// only valid if craveapp.plist specifies a protocol to handle
+	// only valid if test1.plist specifies a protocol to handle
 	if(self.invokeString)
 	{
 		// this is passed before the deviceready event is fired, so you can access it in js when you receive deviceready
