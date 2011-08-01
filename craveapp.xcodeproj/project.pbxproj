@@ -35,7 +35,6 @@
 		3B3A601813D717F100F609BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3A601713D717F100F609BC /* AppDelegate.m */; };
 		3B3A646D13D7198300F609BC /* www in Resources */ = {isa = PBXBuildFile; fileRef = 3B3A646C13D7198300F609BC /* www */; };
 		3B3A646F13D719E400F609BC /* images in Resources */ = {isa = PBXBuildFile; fileRef = 3B3A646E13D719E400F609BC /* images */; };
-		3BDA526113E337940079729D /* PhoneGap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BDA526013E337940079729D /* PhoneGap.framework */; };
 		3BDA527413E348CB0079729D /* ChildBrowser.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3BDA526713E348CB0079729D /* ChildBrowser.bundle */; };
 		3BDA527513E348CB0079729D /* ChildBrowser.js in Sources */ = {isa = PBXBuildFile; fileRef = 3BDA526813E348CB0079729D /* ChildBrowser.js */; };
 		3BDA527613E348CB0079729D /* ChildBrowserCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BDA526A13E348CB0079729D /* ChildBrowserCommand.m */; };
@@ -46,6 +45,7 @@
 		3BDA527B13E348CB0079729D /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 3BDA527113E348CB0079729D /* index.html */; };
 		3BDA527C13E348CB0079729D /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3BDA527213E348CB0079729D /* README.txt */; };
 		3BDA527D13E348CB0079729D /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3BDA527313E348CB0079729D /* README.txt */; };
+		3BDA527F13E35FEE0079729D /* PhoneGap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BDA527E13E35FEE0079729D /* PhoneGap.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -82,7 +82,6 @@
 		3B3A601A13D717F100F609BC /* README */ = {isa = PBXFileReference; lastKnownFileType = text; name = README; path = Plugins/README; sourceTree = "<group>"; };
 		3B3A646C13D7198300F609BC /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
 		3B3A646E13D719E400F609BC /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = images; path = www/images; sourceTree = "<group>"; };
-		3BDA526013E337940079729D /* PhoneGap.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PhoneGap.framework; path = ../../../Shared/PhoneGap/Frameworks/PhoneGap.framework; sourceTree = "<group>"; };
 		3BDA526713E348CB0079729D /* ChildBrowser.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ChildBrowser.bundle; sourceTree = "<group>"; };
 		3BDA526813E348CB0079729D /* ChildBrowser.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ChildBrowser.js; sourceTree = "<group>"; };
 		3BDA526913E348CB0079729D /* ChildBrowserCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildBrowserCommand.h; sourceTree = "<group>"; };
@@ -95,6 +94,7 @@
 		3BDA527113E348CB0079729D /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 		3BDA527213E348CB0079729D /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		3BDA527313E348CB0079729D /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		3BDA527E13E35FEE0079729D /* PhoneGap.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PhoneGap.framework; path = ../../Shared/PhoneGap/Frameworks/PhoneGap.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,7 +115,7 @@
 				3B3A5FF213D717F100F609BC /* SystemConfiguration.framework in Frameworks */,
 				3B3A5FF413D717F100F609BC /* MobileCoreServices.framework in Frameworks */,
 				3B3A5FF613D717F100F609BC /* CoreMedia.framework in Frameworks */,
-				3BDA526113E337940079729D /* PhoneGap.framework in Frameworks */,
+				3BDA527F13E35FEE0079729D /* PhoneGap.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +153,7 @@
 		3B3A5FDC13D717F100F609BC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3BDA527E13E35FEE0079729D /* PhoneGap.framework */,
 				3B3A5FDD13D717F100F609BC /* Foundation.framework */,
 				3B3A5FDF13D717F100F609BC /* UIKit.framework */,
 				3B3A5FE113D717F100F609BC /* CoreGraphics.framework */,
@@ -173,7 +174,6 @@
 		3B3A5FF713D717F100F609BC /* craveapp */ = {
 			isa = PBXGroup;
 			children = (
-				3BDA526013E337940079729D /* PhoneGap.framework */,
 				3B3A600213D717F100F609BC /* Resources */,
 				3B3A601513D717F100F609BC /* Classes */,
 				3B3A601913D717F100F609BC /* Plugins */,

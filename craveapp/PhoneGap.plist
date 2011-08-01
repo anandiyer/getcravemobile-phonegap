@@ -20,7 +20,7 @@
 	<array/>
 	<key>Plugins</key>
 	<dict>
-		<key>com.phonegap.childbrowser</key>
+		<key>childbrowsercommand</key>
 		<string>ChildBrowserCommand</string>
 		<key>com.phonegap.accelerometer</key>
 		<string>PGAccelerometer</string>
