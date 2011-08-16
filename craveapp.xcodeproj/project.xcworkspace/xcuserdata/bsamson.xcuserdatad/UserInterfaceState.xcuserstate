@@ -886,7 +886,7 @@
 			</dict>
 		</dict>
 		<string>file://localhost/Users/bsamson/getcravemobile-phonegap/craveapp.xcodeproj/</string>
-		<real>335166535.61301202</real>
+		<real>335171169.68779498</real>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -10522,7 +10522,7 @@
 				<integer>761</integer>
 			</dict>
 		</dict>
-		<real>335166535.61107802</real>
+		<real>335171169.68553001</real>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -15772,7 +15772,7 @@
 				<integer>1147</integer>
 			</dict>
 			<key>NS.time</key>
-			<real>335166530.61029702</real>
+			<real>335171164.684928</real>
 		</dict>
 		<dict>
 			<key>$classes</key>
@@ -15783,7 +15783,7 @@
 			<key>$classname</key>
 			<string>NSDate</string>
 		</dict>
-		<string>Today at 10:48 PM</string>
+		<string>Today at 12:06 AM</string>
 		<integer>234</integer>
 		<dict>
 			<key>$class</key>
