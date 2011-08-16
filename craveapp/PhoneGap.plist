@@ -22,6 +22,8 @@
 	<dict>
 		<key>childbrowsercommand</key>
 		<string>ChildBrowserCommand</string>
+		<key>smscomposer</key>
+		<string>SMSComposer</string>
 		<key>com.phonegap.accelerometer</key>
 		<string>PGAccelerometer</string>
 		<key>com.phonegap.camera</key>

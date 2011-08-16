@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		3B28C85713D8FFA100D710B3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B28C85613D8FFA100D710B3 /* Default.png */; };
 		3B28C85913D9001000D710B3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B28C85813D9001000D710B3 /* Default@2x.png */; };
+		3B2DC7A113FA2F6C00C5B6B6 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 3B2DC79D13FA2F6C00C5B6B6 /* index.html */; };
+		3B2DC7A213FA2F6C00C5B6B6 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3B2DC79E13FA2F6C00C5B6B6 /* README.md */; };
+		3B2DC7A313FA2F6C00C5B6B6 /* SMSComposer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B2DC7A013FA2F6C00C5B6B6 /* SMSComposer.m */; };
+		3B2DC7A513FA318D00C5B6B6 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B2DC7A413FA318D00C5B6B6 /* MessageUI.framework */; };
 		3B3A5FDE13D717F100F609BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B3A5FDD13D717F100F609BC /* Foundation.framework */; };
 		3B3A5FE013D717F100F609BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B3A5FDF13D717F100F609BC /* UIKit.framework */; };
 		3B3A5FE213D717F100F609BC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B3A5FE113D717F100F609BC /* CoreGraphics.framework */; };
@@ -51,6 +55,11 @@
 /* Begin PBXFileReference section */
 		3B28C85613D8FFA100D710B3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		3B28C85813D9001000D710B3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		3B2DC79D13FA2F6C00C5B6B6 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		3B2DC79E13FA2F6C00C5B6B6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		3B2DC79F13FA2F6C00C5B6B6 /* SMSComposer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMSComposer.h; sourceTree = "<group>"; };
+		3B2DC7A013FA2F6C00C5B6B6 /* SMSComposer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMSComposer.m; sourceTree = "<group>"; };
+		3B2DC7A413FA318D00C5B6B6 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		3B3A5FD913D717F100F609BC /* craveapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = craveapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B3A5FDD13D717F100F609BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3B3A5FDF13D717F100F609BC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -102,6 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B2DC7A513FA318D00C5B6B6 /* MessageUI.framework in Frameworks */,
 				3B3A5FDE13D717F100F609BC /* Foundation.framework in Frameworks */,
 				3B3A5FE013D717F100F609BC /* UIKit.framework in Frameworks */,
 				3B3A5FE213D717F100F609BC /* CoreGraphics.framework in Frameworks */,
@@ -129,9 +139,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B2DC79C13FA2F6C00C5B6B6 /* SMSComposer */ = {
+			isa = PBXGroup;
+			children = (
+				3B2DC79D13FA2F6C00C5B6B6 /* index.html */,
+				3B2DC79E13FA2F6C00C5B6B6 /* README.md */,
+				3B2DC79F13FA2F6C00C5B6B6 /* SMSComposer.h */,
+				3B2DC7A013FA2F6C00C5B6B6 /* SMSComposer.m */,
+			);
+			name = SMSComposer;
+			path = Plugins/SMSComposer;
+			sourceTree = "<group>";
+		};
 		3B3A5FCB13D717F100F609BC = {
 			isa = PBXGroup;
 			children = (
+				3B2DC7A413FA318D00C5B6B6 /* MessageUI.framework */,
 				3B28C85813D9001000D710B3 /* Default@2x.png */,
 				3B28C85613D8FFA100D710B3 /* Default.png */,
 				3B3A646E13D719E400F609BC /* images */,
@@ -236,6 +259,7 @@
 		3B3A601913D717F100F609BC /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
+				3B2DC79C13FA2F6C00C5B6B6 /* SMSComposer */,
 				3BDA526613E348CB0079729D /* ChildBrowser */,
 				3B3A601A13D717F100F609BC /* README */,
 			);
@@ -342,6 +366,8 @@
 				3BDA527B13E348CB0079729D /* index.html in Resources */,
 				3BDA527C13E348CB0079729D /* README.txt in Resources */,
 				3BDA527D13E348CB0079729D /* README.txt in Resources */,
+				3B2DC7A113FA2F6C00C5B6B6 /* index.html in Resources */,
+				3B2DC7A213FA2F6C00C5B6B6 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,6 +400,7 @@
 				3BDA527613E348CB0079729D /* ChildBrowserCommand.m in Sources */,
 				3BDA527713E348CB0079729D /* ChildBrowserViewController.m in Sources */,
 				3BDA527A13E348CB0079729D /* FBConnect.js in Sources */,
+				3B2DC7A313FA2F6C00C5B6B6 /* SMSComposer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
