@@ -26,5 +26,6 @@
 
 - (void) showWebPage:(NSMutableArray*)arguments withDict:(NSMutableDictionary*)options;
 -(void) onChildLocationChange:(NSString*)newLoc;
+-(void) deleteCookies:(NSMutableArray*)arguments withDict:(NSMutableDictionary*)options;
 
 @end

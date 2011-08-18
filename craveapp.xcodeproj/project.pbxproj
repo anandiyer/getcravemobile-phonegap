@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		3B28C85713D8FFA100D710B3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B28C85613D8FFA100D710B3 /* Default.png */; };
 		3B28C85913D9001000D710B3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B28C85813D9001000D710B3 /* Default@2x.png */; };
-		3B2DC7A113FA2F6C00C5B6B6 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 3B2DC79D13FA2F6C00C5B6B6 /* index.html */; };
-		3B2DC7A213FA2F6C00C5B6B6 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3B2DC79E13FA2F6C00C5B6B6 /* README.md */; };
 		3B2DC7A313FA2F6C00C5B6B6 /* SMSComposer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B2DC7A013FA2F6C00C5B6B6 /* SMSComposer.m */; };
 		3B2DC7A513FA318D00C5B6B6 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B2DC7A413FA318D00C5B6B6 /* MessageUI.framework */; };
 		3B3A5FDE13D717F100F609BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B3A5FDD13D717F100F609BC /* Foundation.framework */; };
@@ -40,23 +38,15 @@
 		3B3A646D13D7198300F609BC /* www in Resources */ = {isa = PBXBuildFile; fileRef = 3B3A646C13D7198300F609BC /* www */; };
 		3B3A646F13D719E400F609BC /* images in Resources */ = {isa = PBXBuildFile; fileRef = 3B3A646E13D719E400F609BC /* images */; };
 		3BDA527413E348CB0079729D /* ChildBrowser.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3BDA526713E348CB0079729D /* ChildBrowser.bundle */; };
-		3BDA527513E348CB0079729D /* ChildBrowser.js in Sources */ = {isa = PBXBuildFile; fileRef = 3BDA526813E348CB0079729D /* ChildBrowser.js */; };
 		3BDA527613E348CB0079729D /* ChildBrowserCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BDA526A13E348CB0079729D /* ChildBrowserCommand.m */; };
 		3BDA527713E348CB0079729D /* ChildBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BDA526C13E348CB0079729D /* ChildBrowserViewController.m */; };
 		3BDA527813E348CB0079729D /* ChildBrowserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BDA526D13E348CB0079729D /* ChildBrowserViewController.xib */; };
-		3BDA527913E348CB0079729D /* facebook.html in Resources */ = {isa = PBXBuildFile; fileRef = 3BDA526F13E348CB0079729D /* facebook.html */; };
-		3BDA527A13E348CB0079729D /* FBConnect.js in Sources */ = {isa = PBXBuildFile; fileRef = 3BDA527013E348CB0079729D /* FBConnect.js */; };
-		3BDA527B13E348CB0079729D /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 3BDA527113E348CB0079729D /* index.html */; };
-		3BDA527C13E348CB0079729D /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3BDA527213E348CB0079729D /* README.txt */; };
-		3BDA527D13E348CB0079729D /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3BDA527313E348CB0079729D /* README.txt */; };
 		3BDA527F13E35FEE0079729D /* PhoneGap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BDA527E13E35FEE0079729D /* PhoneGap.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3B28C85613D8FFA100D710B3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		3B28C85813D9001000D710B3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		3B2DC79D13FA2F6C00C5B6B6 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
-		3B2DC79E13FA2F6C00C5B6B6 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		3B2DC79F13FA2F6C00C5B6B6 /* SMSComposer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMSComposer.h; sourceTree = "<group>"; };
 		3B2DC7A013FA2F6C00C5B6B6 /* SMSComposer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMSComposer.m; sourceTree = "<group>"; };
 		3B2DC7A413FA318D00C5B6B6 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
@@ -88,21 +78,14 @@
 		3B3A601313D717F100F609BC /* PhoneGap.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PhoneGap.plist; sourceTree = "<group>"; };
 		3B3A601613D717F100F609BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
 		3B3A601713D717F100F609BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
-		3B3A601A13D717F100F609BC /* README */ = {isa = PBXFileReference; lastKnownFileType = text; name = README; path = Plugins/README; sourceTree = "<group>"; };
 		3B3A646C13D7198300F609BC /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
 		3B3A646E13D719E400F609BC /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = images; path = www/images; sourceTree = "<group>"; };
 		3BDA526713E348CB0079729D /* ChildBrowser.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ChildBrowser.bundle; sourceTree = "<group>"; };
-		3BDA526813E348CB0079729D /* ChildBrowser.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ChildBrowser.js; sourceTree = "<group>"; };
 		3BDA526913E348CB0079729D /* ChildBrowserCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildBrowserCommand.h; sourceTree = "<group>"; };
 		3BDA526A13E348CB0079729D /* ChildBrowserCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildBrowserCommand.m; sourceTree = "<group>"; };
 		3BDA526B13E348CB0079729D /* ChildBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildBrowserViewController.h; sourceTree = "<group>"; };
 		3BDA526C13E348CB0079729D /* ChildBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildBrowserViewController.m; sourceTree = "<group>"; };
 		3BDA526D13E348CB0079729D /* ChildBrowserViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChildBrowserViewController.xib; sourceTree = "<group>"; };
-		3BDA526F13E348CB0079729D /* facebook.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = facebook.html; sourceTree = "<group>"; };
-		3BDA527013E348CB0079729D /* FBConnect.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = FBConnect.js; sourceTree = "<group>"; };
-		3BDA527113E348CB0079729D /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
-		3BDA527213E348CB0079729D /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
-		3BDA527313E348CB0079729D /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		3BDA527E13E35FEE0079729D /* PhoneGap.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PhoneGap.framework; path = ../../Shared/PhoneGap/Frameworks/PhoneGap.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -142,8 +125,6 @@
 		3B2DC79C13FA2F6C00C5B6B6 /* SMSComposer */ = {
 			isa = PBXGroup;
 			children = (
-				3B2DC79D13FA2F6C00C5B6B6 /* index.html */,
-				3B2DC79E13FA2F6C00C5B6B6 /* README.md */,
 				3B2DC79F13FA2F6C00C5B6B6 /* SMSComposer.h */,
 				3B2DC7A013FA2F6C00C5B6B6 /* SMSComposer.m */,
 			);
@@ -261,7 +242,6 @@
 			children = (
 				3B2DC79C13FA2F6C00C5B6B6 /* SMSComposer */,
 				3BDA526613E348CB0079729D /* ChildBrowser */,
-				3B3A601A13D717F100F609BC /* README */,
 			);
 			name = Plugins;
 			sourceTree = "<group>";
@@ -270,28 +250,14 @@
 			isa = PBXGroup;
 			children = (
 				3BDA526713E348CB0079729D /* ChildBrowser.bundle */,
-				3BDA526813E348CB0079729D /* ChildBrowser.js */,
 				3BDA526913E348CB0079729D /* ChildBrowserCommand.h */,
 				3BDA526A13E348CB0079729D /* ChildBrowserCommand.m */,
 				3BDA526B13E348CB0079729D /* ChildBrowserViewController.h */,
 				3BDA526C13E348CB0079729D /* ChildBrowserViewController.m */,
 				3BDA526D13E348CB0079729D /* ChildBrowserViewController.xib */,
-				3BDA526E13E348CB0079729D /* FBConnectExample */,
-				3BDA527313E348CB0079729D /* README.txt */,
 			);
 			name = ChildBrowser;
 			path = Plugins/ChildBrowser;
-			sourceTree = "<group>";
-		};
-		3BDA526E13E348CB0079729D /* FBConnectExample */ = {
-			isa = PBXGroup;
-			children = (
-				3BDA526F13E348CB0079729D /* facebook.html */,
-				3BDA527013E348CB0079729D /* FBConnect.js */,
-				3BDA527113E348CB0079729D /* index.html */,
-				3BDA527213E348CB0079729D /* README.txt */,
-			);
-			path = FBConnectExample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -362,12 +328,6 @@
 				3B28C85913D9001000D710B3 /* Default@2x.png in Resources */,
 				3BDA527413E348CB0079729D /* ChildBrowser.bundle in Resources */,
 				3BDA527813E348CB0079729D /* ChildBrowserViewController.xib in Resources */,
-				3BDA527913E348CB0079729D /* facebook.html in Resources */,
-				3BDA527B13E348CB0079729D /* index.html in Resources */,
-				3BDA527C13E348CB0079729D /* README.txt in Resources */,
-				3BDA527D13E348CB0079729D /* README.txt in Resources */,
-				3B2DC7A113FA2F6C00C5B6B6 /* index.html in Resources */,
-				3B2DC7A213FA2F6C00C5B6B6 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,10 +356,8 @@
 			files = (
 				3B3A5FFF13D717F100F609BC /* main.m in Sources */,
 				3B3A601813D717F100F609BC /* AppDelegate.m in Sources */,
-				3BDA527513E348CB0079729D /* ChildBrowser.js in Sources */,
 				3BDA527613E348CB0079729D /* ChildBrowserCommand.m in Sources */,
 				3BDA527713E348CB0079729D /* ChildBrowserViewController.m in Sources */,
-				3BDA527A13E348CB0079729D /* FBConnect.js in Sources */,
 				3B2DC7A313FA2F6C00C5B6B6 /* SMSComposer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
