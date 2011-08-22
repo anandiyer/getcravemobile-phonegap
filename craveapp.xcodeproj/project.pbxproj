@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30FBC68D13FEC83B0082DA1B /* Entitlements.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 30FBC68C13FEC83B0082DA1B /* Entitlements.entitlements */; };
 		3B28C85713D8FFA100D710B3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B28C85613D8FFA100D710B3 /* Default.png */; };
 		3B28C85913D9001000D710B3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B28C85813D9001000D710B3 /* Default@2x.png */; };
 		3B2DC7A313FA2F6C00C5B6B6 /* SMSComposer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B2DC7A013FA2F6C00C5B6B6 /* SMSComposer.m */; };
@@ -45,12 +46,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		30FBC68C13FEC83B0082DA1B /* Entitlements.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Entitlements.entitlements; sourceTree = "<group>"; };
 		3B28C85613D8FFA100D710B3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		3B28C85813D9001000D710B3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		3B2DC79F13FA2F6C00C5B6B6 /* SMSComposer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMSComposer.h; sourceTree = "<group>"; };
 		3B2DC7A013FA2F6C00C5B6B6 /* SMSComposer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMSComposer.m; sourceTree = "<group>"; };
 		3B2DC7A413FA318D00C5B6B6 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
-		3B3A5FD913D717F100F609BC /* craveapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = craveapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B3A5FD913D717F100F609BC /* crave.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = crave.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B3A5FDD13D717F100F609BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3B3A5FDF13D717F100F609BC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3B3A5FE113D717F100F609BC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -135,6 +137,7 @@
 		3B3A5FCB13D717F100F609BC = {
 			isa = PBXGroup;
 			children = (
+				30FBC68C13FEC83B0082DA1B /* Entitlements.entitlements */,
 				3B2DC7A413FA318D00C5B6B6 /* MessageUI.framework */,
 				3B28C85813D9001000D710B3 /* Default@2x.png */,
 				3B28C85613D8FFA100D710B3 /* Default.png */,
@@ -149,7 +152,7 @@
 		3B3A5FDA13D717F100F609BC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3B3A5FD913D717F100F609BC /* craveapp.app */,
+				3B3A5FD913D717F100F609BC /* crave.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -263,9 +266,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3B3A5FD813D717F100F609BC /* craveapp */ = {
+		3B3A5FD813D717F100F609BC /* crave */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3B3A601D13D717F100F609BC /* Build configuration list for PBXNativeTarget "craveapp" */;
+			buildConfigurationList = 3B3A601D13D717F100F609BC /* Build configuration list for PBXNativeTarget "crave" */;
 			buildPhases = (
 				3B3A5FD213D717F100F609BC /* Sources */,
 				3B3A5FD313D717F100F609BC /* Frameworks */,
@@ -278,9 +281,9 @@
 			);
 			dependencies = (
 			);
-			name = craveapp;
+			name = crave;
 			productName = craveapp;
-			productReference = 3B3A5FD913D717F100F609BC /* craveapp.app */;
+			productReference = 3B3A5FD913D717F100F609BC /* crave.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -303,7 +306,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3B3A5FD813D717F100F609BC /* craveapp */,
+				3B3A5FD813D717F100F609BC /* crave */,
 			);
 		};
 /* End PBXProject section */
@@ -328,6 +331,7 @@
 				3B28C85913D9001000D710B3 /* Default@2x.png in Resources */,
 				3BDA527413E348CB0079729D /* ChildBrowser.bundle in Resources */,
 				3BDA527813E348CB0079729D /* ChildBrowserViewController.xib in Resources */,
+				30FBC68D13FEC83B0082DA1B /* Entitlements.entitlements in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,6 +391,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -396,6 +401,8 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = crave;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -404,12 +411,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_ENTITLEMENTS = Entitlements.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Crave Inc";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Crave Inc";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = crave;
+				PROVISIONING_PROFILE = "F42425C6-2151-42FB-B829-E0A086DC785A";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "F42425C6-2151-42FB-B829-E0A086DC785A";
 				SDKROOT = iphoneos;
 			};
 			name = Release;
@@ -418,6 +430,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = /Users/Shared/PhoneGap/Frameworks;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -426,7 +440,8 @@
 				GCC_PREPROCESSOR_DEFINITIONS = "PHONEGAP_FRAMEWORK=YES";
 				INFOPLIST_FILE = "craveapp/craveapp-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = crave;
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -436,6 +451,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Crave Inc";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Crave Inc";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				FRAMEWORK_SEARCH_PATHS = /Users/Shared/PhoneGap/Frameworks;
@@ -444,7 +462,9 @@
 				GCC_PREPROCESSOR_DEFINITIONS = "PHONEGAP_FRAMEWORK=YES";
 				INFOPLIST_FILE = "craveapp/craveapp-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = crave;
+				PROVISIONING_PROFILE = "F42425C6-2151-42FB-B829-E0A086DC785A";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "F42425C6-2151-42FB-B829-E0A086DC785A";
 				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
@@ -455,12 +475,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = Entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Crave Inc";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos4.3]" = "iPhone Distribution: Crave Inc";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = crave;
+				PROVISIONING_PROFILE = "F42425C6-2151-42FB-B829-E0A086DC785A";
+				"PROVISIONING_PROFILE[sdk=iphoneos4.3]" = "F42425C6-2151-42FB-B829-E0A086DC785A";
 				SDKROOT = iphoneos;
 			};
 			name = Distribution;
@@ -469,8 +494,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_ENTITLEMENTS = Entitlements.entitlements;
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphoneos*]" = Entitlements.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Crave Inc";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Crave Inc";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos4.3]" = "iPhone Distribution: Crave Inc";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				FRAMEWORK_SEARCH_PATHS = /Users/Shared/PhoneGap/Frameworks;
@@ -479,8 +507,10 @@
 				GCC_PREPROCESSOR_DEFINITIONS = "PHONEGAP_FRAMEWORK=YES";
 				INFOPLIST_FILE = "craveapp/craveapp-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PRODUCT_NAME = crave;
+				PROVISIONING_PROFILE = "F42425C6-2151-42FB-B829-E0A086DC785A";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "F42425C6-2151-42FB-B829-E0A086DC785A";
+				"PROVISIONING_PROFILE[sdk=iphoneos4.3]" = "F42425C6-2151-42FB-B829-E0A086DC785A";
 				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
@@ -500,7 +530,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3B3A601D13D717F100F609BC /* Build configuration list for PBXNativeTarget "craveapp" */ = {
+		3B3A601D13D717F100F609BC /* Build configuration list for PBXNativeTarget "crave" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3B3A601E13D717F100F609BC /* Debug */,
